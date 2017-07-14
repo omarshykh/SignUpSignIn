@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+	<script src="app.js"></script>
+    <style>
+        #myDiv{
+            width:650px;
+            padding:10px;
+            margin-left: 250px;
+        }
+        #username,#password{
+            padding:10px;
+            font-size: 22px;
+            margin-left:20px;
+            border-style: solid;
+            border-color:deepskyblue;
+            color:deepskyblue;
+            border-width: 0px 0px 3px 0px;
+        }
+        #signup,#login{
+            padding:12px;
+            padding-left:20px;
+            padding-right:20px;
+            border-radius: 5px;
+            border-style: none;
+            font-size: 18px;
+            background-color: deepskyblue;
+            color:white;
+        }
+        #buttonDiv{
+            padding:10px;
+        }
+        #signup{
+            margin-left: 100px;
+        }
+        #login{
+            margin-left: 220px;
+            padding-left:25px;
+            padding-right:25px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="myDiv">
+    <input type="text" placeholder="Enter Username" id="username" />
+    <input type="password" placeholder="Enter Password" id="password" />
+    <br><br><br>
+    <div id="buttonDiv">
+    <button id="signup" onclick="signUp()">SignUp</button>
+    <button id="login" onclick="signInn()">Login</button>
+    </div>
+    </div>
+</body>
+</html>
